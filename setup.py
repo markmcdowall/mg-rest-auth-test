@@ -22,7 +22,7 @@ setup(
     packages=['rest'],
     include_package_data=True,
     install_requires=[
-        'flask', 'flask_restful', 'waitress', 'pytest',
+        'flask', 'flask_restful', 'httplib2', 'waitress', 'pytest',
         'pylint'
     ],
     setup_requires=[
